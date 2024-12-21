@@ -47,7 +47,8 @@ test = ["pytest", "faker"]
 version = {file = "VERSION"}
 
 [tool.distutils.bdist_wheel]
-plat-name = "linux_x86_64"
+#plat-name = "linux_x86_64"
+plat-name = "manylinux_2_34_x86_64"
 python-tag = "py3"
 universal = 0
 
